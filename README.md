@@ -1,26 +1,26 @@
 # sample-python-project
 
-# A Python program to convert temperatures to and from Celsius and Fahrenheit.
+#A Python program to convert temperatures to and from Celsius and Fahrenheit.
 
-# The centigrade to Fahrenheit conversion formula is: C = (5/9) * (F - 32) where C is Celsius and F is Fahrenheit.
+#The centigrade to Fahrenheit conversion formula is: C = (5/9) * (F - 32) where C is Celsius and F is Fahrenheit.
 
-# Prompt the user to input a temperature to be converted.
+#Prompt the user to input a temperature to be converted.
 
 temp = input
 
-# Extract the numerical part of the temperature and convert it to an integer
+#Extract the numerical part of the temperature and convert it to an integer
 
 degree = int(temp[:-1])
 
-# Extract the convention part of the temperature input (either 'C' or 'F')
+#Extract the convention part of the temperature input (either 'C' or 'F')
 i_convention = temp[-1]
 
-# Check if the input convention is in uppercase 'C' (Celsius)
+#Check if the input convention is in uppercase 'C' (Celsius)
 if i_convention.upper() == "C":
     # Convert the Celsius temperature to Fahrenheit
     result = int(round((9 * degree) / 5 + 32))
     o_convention = "Fahrenheit"  # Set the output convention as Fahrenheit
-# Check if the input convention is in uppercase 'F' (Fahrenheit)
+#Check if the input convention is in uppercase 'F' (Fahrenheit)
 elif i_convention.upper() == "F":
     # Convert the Fahrenheit temperature to Celsius
     result = int(round((degree - 32) * 5 / 9))
@@ -30,7 +30,7 @@ else:
     print("Input proper convention.")
     quit()
 
-# Display the converted temperature in the specified output convention
+#Display the converted temperature in the specified output convention
 print("The temperature in", o_convention, "is", result, "degrees.") 
 
 Sample Output:

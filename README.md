@@ -32,25 +32,3 @@ else:
 
 #Display the converted temperature in the specified output convention
 print("The temperature in", o_convention, "is", result, "degrees.") 
-
-Sample Output:
-
-Input the  temperature you like to convert? (e.g., 45F, 102C etc.) : 104f                                     
-The temperature in Celsius is 40 degrees. 
-Flowchart:
-
-Flowchart: Python program to convert temperatures to and from celsius, fahrenheit
-
-Python Code Editor:
-
-
-
-Have another way to solve this solution? Contribute your code (and comments) through Disqus.
-
-Previous: Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included).
-Next: Write a Python program to guess a number between 1 to 9.
-
-What is the difficulty level of this exercise?
-
-EASY MEDIUM HARD
-Based on 3016 votes, average difficulty level of this exercise is Easy .
